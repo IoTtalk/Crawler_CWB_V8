@@ -30,6 +30,7 @@ https://www.itread01.com/content/1543109607.html
 For Ubuntu:
 
 安裝Chrome
+
     wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
     sudo dpkg -i google-chrome-stable_current_amd64.deb
 
