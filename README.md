@@ -13,7 +13,7 @@ For windows:
 
 正常訊息
 
-DevTools listening on ws://127.0.0.1:58955/devtools/browser/39b821ce-f499-45bb-b93e-ce423911e4b9selenium.common.exceptions.SessionNotCreatedException: 
+例如:DevTools listening on ws://127.0.0.1:58955/devtools/browser/39b821ce-f499-45bb-b93e-ce423911e4b9 
 
 版本不對可能的訊息1: (可忽略)
 
