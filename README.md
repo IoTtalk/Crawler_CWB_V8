@@ -17,7 +17,7 @@ For windows:
 
 版本不對可能的訊息1: (可忽略)
 
-ERROR:browser_switcher_service.cc(238)] XXX Init()
+selenium.common.exceptions.SessionNotCreatedException: ERROR:browser_switcher_service.cc(238)] XXX Init()
 
 版本不對可能的訊息2: (必須要更換成對應的版本)
 
