@@ -3,7 +3,7 @@
 
 * 需安裝 selenium module
 
-* 須將對應Chrome版本的webdriver( chromedriver.exe ) 放到 python 安裝目錄
+* 須將對應Chrome版本的webdriver( chromedriver.exe ) 放到 crawl_weather_V8.py 相同目錄內
 *  進入此頁面選擇下載Chromedriver：
 ```
 http://chromedriver.storage.googleapis.com/index.html
