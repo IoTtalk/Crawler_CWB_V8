@@ -3,8 +3,8 @@
 
 * 需安裝 selenium module
 
-* 須將對應Chrome版本的webdriver( chromedriver.exe ) 放到 python 安裝目錄 **
-** 進入此頁面選擇下載Chromedriver：
+* 須將對應Chrome版本的webdriver( chromedriver.exe ) 放到 python 安裝目錄
+*  進入此頁面選擇下載Chromedriver：
 ```
 http://chromedriver.storage.googleapis.com/index.html
 ```
