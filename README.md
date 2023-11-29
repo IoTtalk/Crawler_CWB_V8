@@ -3,14 +3,18 @@
 
 * 需安裝 selenium module
 
-* 須將對應Chrome版本的webdriver( chromedriver.exe ) 放到 python 安裝目錄 
+* 須將對應Chrome版本的webdriver( chromedriver.exe ) 放到 python 安裝目錄 **
+** 進入此頁面選擇下載Chromedriver：
+```
+http://chromedriver.storage.googleapis.com/index.html
+```
 
-For windows:
-
+## For windows:
+```
     pip3 install selenium
     pip3 install beautifulsoup4
     pip3 install lxml
-
+```
 正常訊息
 
 例如:DevTools listening on ws://127.0.0.1:58955/devtools/browser/39b821ce-f499-45bb-b93e-ce423911e4b9 
@@ -24,34 +28,35 @@ selenium.common.exceptions.SessionNotCreatedException: ERROR:browser_switcher_se
 selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 83
 
 Reference:
+```
 https://www.itread01.com/content/1543109607.html
+```
 
-
-For Ubuntu:
+## For Ubuntu:
 
 安裝Chrome
-
+```
     wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
     sudo dpkg -i google-chrome-stable_current_amd64.deb
-
+```
 如果報錯:
 
 Errors were encountered while processing:
 
  google-chrome-stable
- 
+
 執行以下命令後再次安裝Chrome:
-
+```
     sudo apt-get install -f
-
+```
 
 進入此頁面選擇下載Chromedriver：http://chromedriver.storage.googleapis.com/index.html
-
+```
     wget https://chromedriver.storage.googleapis.com/83.0.4103.39/chromedriver_linux64.zip
     unzip chromedriver_linux64.zip
     chmod +x chromedriver
     sudo mv chromedriver /usr/bin/
-   
+```   
 
 
 純console，沒有X-window時，可以利用虛擬視窗環境Xvfb解決:
