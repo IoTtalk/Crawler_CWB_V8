@@ -47,7 +47,9 @@ for tr in trs:
 #   字串轉為datetime格式
     date.append(datetime.datetime.strptime(d, '%Y%m/%d %H:%M'))
     temp.append(tr.find('td',{'headers':'temp'}).text)
-    weather.append(tr.find('td',{'headers':'weather'}).find('img')['title'])
+    w_img=tr.find('td',{'headers':'weather'}).find('img')
+    if w_img: weather.append(w_img['title'])  
+    else: weather.append('-')      
     wind_direction.append(tr.find('td',{'headers':'w-1'}).text)
     wind_speed.append(tr.find('td',{'headers':'w-2'}).text)
     gust_wind.append(tr.find('td',{'headers':'w-3'}).text)
