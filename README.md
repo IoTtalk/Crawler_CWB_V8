@@ -11,7 +11,7 @@ http://chromedriver.storage.googleapis.com/index.html
 
 ## For windows:
 ```
-    pip3 install selenium beautifulsoup4 lxml
+    pip3 install selenium~=4.0.0 beautifulsoup4 lxml
 ```
 正常訊息
 
