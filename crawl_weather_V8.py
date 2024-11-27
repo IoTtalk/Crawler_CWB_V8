@@ -21,6 +21,7 @@ url = 'https://www.cwa.gov.tw/V8/C/W/OBS_Station.html?ID=46741'
 
 #啟動模擬瀏覽器
 driver = webdriver.Chrome()
+#driver = webdriver.Chrome(executable_path=r"實際chrome所在位置，例如C:\Chrome\chromedriver.exe")
 
 #取得網頁代碼
 driver.get(url)
