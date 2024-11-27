@@ -5,8 +5,15 @@
 
 * 須將對應Chrome版本的webdriver( chromedriver.exe ) 放到 crawl_weather_V8.py 相同目錄內
 *  進入此頁面選擇下載Chromedriver：
+
+Chrome 114以前:
 ```
 http://chromedriver.storage.googleapis.com/index.html
+```
+
+Chrome 115以後:
+```
+https://googlechromelabs.github.io/chrome-for-testing/
 ```
 
 ## For windows:
