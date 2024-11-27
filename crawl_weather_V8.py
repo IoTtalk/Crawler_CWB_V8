@@ -17,7 +17,7 @@ sunlight = []
 
 region = 'Tainan'
 #台南測站觀測資料
-url = 'https://www.cwb.gov.tw/V8/C/W/OBS_Station.html?ID=46741'
+url = 'https://www.cwa.gov.tw/V8/C/W/OBS_Station.html?ID=46741'
 
 #啟動模擬瀏覽器
 driver = webdriver.Chrome()
